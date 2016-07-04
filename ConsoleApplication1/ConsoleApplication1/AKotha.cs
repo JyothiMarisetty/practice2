@@ -10,8 +10,9 @@ namespace ConsoleApplication1
     {
         public void Welcome()
         {
-
-            Console.WriteLine("Welcome to the party");
+            String name;
+            name=Console.ReadLine();
+            Console.WriteLine("Welcome to the party" +name);
         }
     }
 }
